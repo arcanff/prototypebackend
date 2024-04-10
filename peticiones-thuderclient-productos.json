@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "productos",
+    "dateExported": "2023-06-22T23:01:41.085Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c58e33dd-fa9b-439f-8e41-017e670f2efb",
+            "colId": "a124c6b1-4d9c-4608-ac53-e9b761f45896",
+            "containerId": "",
+            "name": "borrar producto",
+            "url": "http://localhost:3000/api/pro/10",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2023-06-22T23:00:26.008Z",
+            "modified": "2023-06-22T23:00:26.008Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fe46dbaa-2c30-4bb0-ae26-f857f59761af",
+            "colId": "a124c6b1-4d9c-4608-ac53-e9b761f45896",
+            "containerId": "",
+            "name": "actualizar producto",
+            "url": "http://localhost:3000/api/pro/10",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2023-06-22T23:00:32.092Z",
+            "modified": "2023-06-22T23:00:32.092Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"name\": \"Producto actualizado\",\r\n  \"desc\": \"Descripción actualizada\",\r\n  \"price\": 19.99,\r\n  \"img\": \"imagen_actualizada.jpg\",\r\n  \"size\": \"2\",\r\n  \"category\": \"1\"\r\n}\r\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "38082317-2bd8-4ff3-8a99-b0c590a8a31b",
+            "colId": "a124c6b1-4d9c-4608-ac53-e9b761f45896",
+            "containerId": "",
+            "name": "agregar un producto",
+            "url": "http://localhost:3000/api/products",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-06-22T23:00:36.324Z",
+            "modified": "2023-06-22T23:00:36.324Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Chaqueta Mujer Corta Acolchada\",\n  \"desc\": \"Chaqueta para mujer corta, combinada, con capota removible, bolsillos exteriores con cremallera\",\n  \"price\": 180000,\n  \"img\": \"\",\n  \"size\": \"3\",\n  \"category\": \"2\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "065ae351-d1a5-492d-adf6-d470adc9798f",
+            "colId": "a124c6b1-4d9c-4608-ac53-e9b761f45896",
+            "containerId": "",
+            "name": "Mostrar un producto",
+            "url": "http://localhost:3000/api/pro/13",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-06-22T23:00:41.263Z",
+            "modified": "2023-06-22T23:00:41.263Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "36f084cc-678d-422e-bb00-9064a1421ce2",
+            "colId": "a124c6b1-4d9c-4608-ac53-e9b761f45896",
+            "containerId": "",
+            "name": "Mostrar todos los productos",
+            "url": "http://localhost:3000/api/pro",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-06-22T23:00:47.568Z",
+            "modified": "2023-06-22T23:00:47.568Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
